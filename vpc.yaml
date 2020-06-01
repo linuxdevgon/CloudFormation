@@ -152,10 +152,10 @@ Resources:
   myDNS:
     Type: AWS::Route53::RecordSetGroup
     Properties:
-      HostedZoneName: linuxdevops.space.
+      HostedZoneName: *******
       Comment: Zone apex alias targeted to LoadBalancer LoadBalancer.
       RecordSets:
-      - Name: linuxdevops.space.
+      - Name: *********
         Type: A
         AliasTarget:
           HostedZoneId: !GetAtt 'LoadBalancer.CanonicalHostedZoneID'
@@ -168,7 +168,7 @@ Resources:
     Properties: 
       HostedZoneConfig: 
         Comment: 'My hosted zone for linuxdevops.space.'
-      Name: 'linuxdevops.space.'
+      Name: '******'
 
 
 ################################################
