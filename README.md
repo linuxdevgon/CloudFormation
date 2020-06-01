@@ -1,2 +1,2 @@
 # CloudFormation
-![Progect](/CloudFormation/progect.png)
+![Progect](/project.png)
