@@ -1,2 +1,2 @@
 # CloudFormation
-![Progect](/project.png)
+![project overview](https://github.com/linuxdevgon/CloudFormation/raw/master/Project.png)
